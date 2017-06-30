@@ -1,0 +1,29 @@
+{
+  "name": "script-tester",
+  "version": "1.0.0",
+  "description": "A javascript testing environment for small scripts",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "linting": "npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestewartjr/script-tester.git"
+  },
+  "author": "@jamestewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamestewartjr/script-tester/issues"
+  },
+  "homepage": "https://github.com/jamestewartjr/script-tester#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-change": "^2.1.2",
+    "eslint": "^4.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "mocha": "^3.4.2"
+  }
+}
