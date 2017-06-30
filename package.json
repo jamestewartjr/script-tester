@@ -1,0 +1,19 @@
+{
+  "name": "script-tester",
+  "version": "1.0.0",
+  "description": "A javascript testing environment for small scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestewartjr/script-tester.git"
+  },
+  "author": "@jamestewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamestewartjr/script-tester/issues"
+  },
+  "homepage": "https://github.com/jamestewartjr/script-tester#readme"
+}
